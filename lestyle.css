@@ -1,0 +1,458 @@
+form{
+  margin: 0;
+  height: 800px;
+  background-color: #f7834d;
+}
+div{
+  margin-right: auto;
+  margin-left: auto;
+  text-align: center;
+  }
+
+  li{
+    overflow:hidden ;  }
+
+  .text-align-right{
+    float:right;
+text-align: center;
+  }
+
+nav ul {
+  list-style-type: none ;
+  margin: 0;
+  padding: 10px;
+  overflow: hidden;
+  background-color: #d64b0a;
+  display: flex;
+  align-items: center;
+}
+ul{
+  text-decoration: none;
+  vertical-align: center;
+  text-align:center;
+  
+}
+ul a{
+  color: white;
+}
+ul a:hover{
+  background-color: #d64b0a;
+}
+
+.logo{
+  border-radius: 90%;
+  width: 40px;
+  height: 40px;
+}
+/**
+.text-align-right a:hover{
+
+background-color: transparent;
+
+}
+
+**/
+
+
+
+nav li a{
+  color: white;
+  padding-right: 20px;
+  display: block;
+  background-color: #d64b0a;
+
+}
+
+.text-align-right{
+text-align: center;
+align-items: center;
+}
+img{
+  margin: 20px;
+}
+
+.bt{
+background-color: yellow;
+size: 5px;
+width: 10px;
+}
+
+
+
+.personne{
+float: right;
+margin-right: 40px;
+}  
+
+.personne a:hover{
+  background-color: #d64b0a;
+
+}
+
+
+
+footer{
+  background-color: #d64b0a;
+  text-align: center;
+  color: white;
+  padding: 10px;
+  display: block;
+
+}
+
+
+
+.CSSTable tr:nth-child(odd){ background-color:#aad4ff; }
+.CSSTable tr:nth-child(even)    { background-color: #ffffff; }
+.CSSTable td{
+    vertical-align:middle; 
+    width:150px;
+    text-align:left;
+    padding:10px;
+    font-size:12px;
+    font-family:Arial;
+    font-weight:normal;
+    color:#000000;
+}
+.CSSTable thead tr th{
+         
+    background:-o-linear-gradient(bottom, #005fbf 5%, #003f7f 100%);    background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #005fbf), color-stop(1, #003f7f) );
+    background:-moz-linear-gradient( center top, #005fbf 5%, #003f7f 100% );
+    filter:progid:DXImageTransform.Microsoft.gradient(startColorstr="#005fbf", endColorstr="#003f7f");  background: -o-linear-gradient(top,#005fbf,003f7f);
+    padding:10px;
+    background-color:#005fbf;
+    text-align:center;
+    font-size:15px;
+    font-family:Arial;
+    font-weight:bold;
+    color:#ffffff;
+}
+
+.CSSTable thead th:nth-child(1){
+  width: 20px;
+}
+
+.CSSTable thead th:nth-child(2) {
+  width: 80px;
+}
+
+.CSSTable thead th:nth-child(3) {
+  width: 301px;
+}
+
+.CSSTable thead th:nth-child(4) {
+  width: 499px;
+}
+
+.CSSTable thead th:nth-child(5){
+  width: 96px;
+}
+
+.CSSTable thead th:nth-child(6){
+  width: 80px;
+}
+
+
+
+
+.CSSTable td:nth-child(1) {
+  width: 22px;
+}
+
+.CSSTable td:nth-child(2) {
+  width: 115px;
+}
+
+.CSSTable td:nth-child(3) {
+  width: 412px;
+}
+
+.CSSTable td:nth-child(4) {
+  width: 690px;
+}
+
+.CSSTable td:nth-child(5) {
+  width: 103px;
+}
+
+.CSSTable td:nth-child(6) {
+  width: 6px;
+}
+
+
+
+
+ 
+ 
+.CSSTable tr:hover {background-color: #669; }
+     
+#a2{
+  height:200px;
+  border-top:0px;
+  width:1204px;
+  display:block;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  border-style: ridge;
+  border-color: #d64b0a;
+}
+
+
+
+/**
+
+.CSSTableTchat table{
+  border-width:10px;
+  border-color: #005fbf;
+  border-style: none;
+}
+**/
+
+/**.CSSTableTchat tr:nth-child(odd){ background-color:#aad4ff; }
+.CSSTableTchat tr:nth-child(even)    { background-color: #ffffff; } */
+.CSSTableTchat td{
+    padding:10px;
+    background-color: transparent;
+    border-spacing: 0;
+    border: solid color(red);
+    border-style:ridge;
+  /**  color:#000000; **/
+}
+/***
+.CSSTableTchat thead tr th{
+         
+    background:-o-linear-gradient(bottom, #005fbf 5%, #003f7f 100%);   
+     background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #005fbf), color-stop(1, #003f7f) );
+    background:-moz-linear-gradient( center top, #005fbf 5%, #003f7f 100% );
+    filter:progid:DXImageTransform.Microsoft.gradient(startColorstr="#005fbf", endColorstr="#003f7f");  background: -o-linear-gradient(top,#005fbf,003f7f);
+    padding:10px;
+    background-color:#005fbf;
+    text-align:center;
+    font-size:15px;
+    font-family:Arial;
+    font-weight:bold;
+    color:#ffffff;
+} 
+
+.CSSTableTchat thead th:nth-child(1) {
+width: 300px;
+}
+
+.CSSTableTchat thead th:nth-child(2) {
+width: 860px;
+}
+**/
+.CSSTableTchat td:nth-child(1){
+width: 300px;
+border-style: none;
+}
+
+.CSSTableTchat td:nth-child(2) {
+width: 850px;
+border-style: none;
+}
+
+
+ 
+/**.CSSTableTchat tr:hover {background-color: #669; } **/
+     
+#aTchat{
+  height:300px;
+  width:1204px;
+  display:block;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  border-spacing: 0;
+  border-style: ridge;
+border-color: #d64b0a;
+}
+#aTchat tr {
+  border: 5px;
+  border-style: ridge;
+}
+#aTchat tr td{
+  border: 20px;
+  border : 1px solid #f7834d;
+text-align: left;
+}
+
+
+
+caption {
+caption-side: bottom;
+padding: 10px;
+}
+
+
+textarea{
+height: 100px;
+}
+
+
+input[type=text], textarea, input[type=password]{
+width: 20%;
+padding: 5px;
+border: 1px solid #ccc;
+border-radius: 4px;
+box-sizing: border-box;
+margin-top: 6px;
+margin-bottom: 16px;
+margin-right: 0px;
+margin-left: 0px;
+resize: none;
+
+}
+
+
+
+input[type=submit], input[type=file]  {
+background-color: #d64b0a;
+color: white;
+padding: 12px 20px;
+border: none;
+border-radius: 4px;
+cursor: pointer;
+}
+
+input[type=submit]:hover {
+background-color: #d64b0a;
+}
+
+
+.messagerie thead
+{
+display:block;
+}
+.messagerie tbody
+{
+display:block;
+max-height:8em;
+overflow-y:scroll;
+
+}
+
+.messagerie tfoot
+{
+display:block;
+}
+
+
+
+
+
+.CSSTablePlanning table{
+border-collapse: collapse;
+border-spacing: 0;
+margin:0px;
+padding:0px;
+}
+
+.CSSTablePlanning tr:nth-child(odd){ background-color:#aad4ff; }
+.CSSTablePlanning tr:nth-child(even)    { background-color: #ffffff; }
+.CSSTablePlanning td{
+vertical-align:middle; 
+width:150px;
+text-align:left;
+padding:10px;
+font-size:12px;
+font-family:Arial;
+font-weight:normal;
+color:#000000;
+}
+.CSSTablePlanning thead tr th{
+     
+background:-o-linear-gradient(bottom, #005fbf 5%, #003f7f 100%);  
+  background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #005fbf), color-stop(1, #003f7f) );
+background:-moz-linear-gradient( center top, #005fbf 5%, #003f7f 100% );
+filter:progid:DXImageTransform.Microsoft.gradient(startColorstr="#005fbf", endColorstr="#003f7f");  background: -o-linear-gradient(top,#005fbf,003f7f);
+padding:10px;
+background-color:#005fbf;
+text-align:center;
+font-size:15px;
+font-family:Arial;
+font-weight:bold;
+color:#ffffff;
+}
+
+.CSSTablePlanning thead th:nth-child(1){
+width: 20px;
+}
+
+.CSSTablePlanning thead th:nth-child(2) {
+width: 300px;
+}
+
+.CSSTablePlanning thead th:nth-child(3) {
+width: 300px;
+}
+
+.CSSTablePlanning thead th:nth-child(4) {
+width: 50px;
+}
+
+.CSSTablePlanning thead th:nth-child(5){
+width: 100px;
+}
+
+.CSSTablePlanning thead th:nth-child(6){
+width: 55px;
+}
+.CSSTablePlanning thead th:nth-child(7){
+width: 80px;
+}
+
+
+.CSSTablePlanning thead th:nth-child(8) {
+width: 1px;
+}
+
+
+.CSSTablePlanning td:nth-child(1) {
+width: 16px;
+}
+
+.CSSTablePlanning td:nth-child(2) {
+width: 300px;
+}
+
+.CSSTablePlanning td:nth-child(3) {
+width: 300px;
+}
+
+.CSSTablePlanning td:nth-child(4) {
+width: 50px;
+}
+
+.CSSTablePlanning td:nth-child(5) {
+width: 103px;
+}
+
+.CSSTablePlanning td:nth-child(6) {
+width: 6px;
+}
+.CSSTablePlanning td:nth-child(7) {
+width: 6px;
+}
+.CSSTablePlanning td:nth-child(8) {
+width: 1px;
+}
+
+
+
+
+
+.CSSTablePlanning tr:hover {background-color: #669; }
+ 
+#a4{
+height:200px;
+border-top:0px;
+width:1050px;
+display:block;
+overflow-y: scroll;
+overflow-x: hidden;
+border-style: ridge;
+border-color: #d64b0a;
+}
+
+
+
